@@ -7,7 +7,7 @@ import "../../../styles/font.css";
 function First() {
   return (
     <>
-      <div>
+      <div style={{ marginTop: "10rem" }}>
         <p className="first">This is first of home</p>
         <Button />
       </div>

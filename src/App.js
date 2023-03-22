@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./pages/home/Home";
-import Header from "./common/header/Header";
-import Footer from "./common/footer/Footer";
+import Header from "./common/header/header";
+import Footer from "./common/footer/footer";
 import Topbar from "./common/Topbar/Topbar";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <div>
         <Topbar />
         <Header />
-        {/* <Home /> */}
+        <Home />
         <Footer />
       </div>
     </>

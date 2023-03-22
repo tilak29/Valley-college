@@ -14,7 +14,7 @@
 .ficon {
   display: flex;
   margin-right: 1rem;
-  justify-content: center;
+
   align-items: center;
 }
 
@@ -29,6 +29,7 @@
 }
 
 .last-icons {
+  display: flex;
   margin-left: auto;
   margin-right: 2rem;
 }
@@ -49,12 +50,12 @@
 
   .first-icons {
     display: flex;
-    margin-left: 2rem;
+    margin-left: 2.2rem;
   }
 
   .ficon > p {
     font-size: 0.65rem;
-    max-width: 75%;
+    max-width: 100%;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
