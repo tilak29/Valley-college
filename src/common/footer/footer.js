@@ -72,7 +72,7 @@ function Footer() {
                 <p className="pl-10 max-[766px]:-pl-10 font-[ElMessiri-Regular] font-medium tracking-wide text-white text-xl">
                   Company
                 </p>
-                <ul className="pl-10 max-[766px]:-mt-10 mt-7 space-y-5 ">
+                <ul className="pl-10 mt-7 space-y-5 ">
                   <li>
                     <a
                       href="/"
@@ -118,10 +118,10 @@ function Footer() {
 
               {/* -------------------------------------------- */}
               <div className="max-[766px]:mt-10 max-[766px]:mb-10">
-                <p className="pl-10 font-[ElMessiri-Regular] font-medium tracking-wide text-white text-xl ">
+                <p className=" font-[ElMessiri-Regular] font-medium tracking-wide text-white text-xl ">
                   Legal
                 </p>
-                <ul className="mt-7 pl-10 space-y-5">
+                <ul className="mt-7  space-y-5">
                   <li>
                     <a
                       href="/"

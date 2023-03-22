@@ -1,6 +1,7 @@
 import React from "react";
 import "./header.css";
 import logo from "../../assets/images/logo.png";
+import Button from "../../components/button/button";
 
 function Header() {
   return (
@@ -39,9 +40,9 @@ function Header() {
             </a>
           </li>
           <li>
-            <a className="btn">
+            <button className="btn">
               <p>Login</p>
-            </a>
+            </button>
           </li>
         </ul>
       </div>
