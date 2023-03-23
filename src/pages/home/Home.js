@@ -4,9 +4,7 @@ import First from "./components/First";
 function Home() {
   return (
     <>
-      <div>
         <First />
-      </div>
     </>
   );
 }
