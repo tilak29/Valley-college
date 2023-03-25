@@ -50,15 +50,16 @@
 
   .first-icons {
     display: flex;
-    margin-left: 2.2rem;
+  }
+
+  .ficon > img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 3rem;
   }
 
   .ficon > p {
-    font-size: 0.65rem;
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
+    display: none;
   }
 
   .last-icons {
@@ -70,7 +71,7 @@
 
   .last-icons > img {
     margin-right: 0.8rem;
-    max-width: 0.8rem;
-    height: 0.8rem;
+    max-width: 100%;
+    height: auto;
   }
 }

@@ -50,30 +50,3 @@ function Header() {
   );
 }
 export default Header;
-
-{
-  /* <div className="header">
-      <img src={logo} alt="abc" className="logo"></img>
-
-      <div class="navbar">
-        <a class="nav-link nav-link-ltr" href="#">
-          Home
-        </a>
-        <a class="nav-link nav-link-ltr" href="#">
-          Amenities
-        </a>
-        <a class="nav-link nav-link-ltr" href="#">
-          Apartments
-        </a>
-        <a class="nav-link nav-link-ltr" href="#">
-          Gallery
-        </a>
-        <a class="nav-link nav-link-ltr" href="#">
-          Contact us
-        </a>
-      </div>
-      <button className="btn">
-        <p>Login</p>
-      </button>
-    </div> */
-}

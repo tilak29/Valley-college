@@ -3,8 +3,8 @@
 .header {
   width: 100%;
   z-index: 3;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
 
 .nav-link {
@@ -210,7 +210,7 @@
     margin-right: 3rem;
     background-color: #ffc701;
     border: none;
-    border-radius: 10%;
+    border-radius: 5px;
     cursor: pointer;
     width: 8rem;
     height: 2rem;

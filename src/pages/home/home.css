@@ -1,5 +1,17 @@
-.first {
-  background-color: var(--blue);
-  color: var(--violet);
-  font-size: var(--small);
+.first1-div {
+  position: relative;
+  margin-top: 7vh;
+  width: 100%;
+}
+
+.first1-img {
+  width: 100%;
+  left: 0;
+}
+
+.first2-div {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%, 0);
 }

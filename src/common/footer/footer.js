@@ -158,7 +158,7 @@ function Footer() {
               </div>
             </div>
             <div className="mt-1 md:max-w-md lg:col-span-2 max-[1022px]:mt-10">
-              <span className="text-white text-xl font-medium tracking-wide ">
+              <span className="text-white text-xl font-medium tracking-wide text-white">
                 Subscribe to news letter
               </span>
               <form className="mt-6">
