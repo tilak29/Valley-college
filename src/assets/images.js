@@ -23,6 +23,35 @@ const images = {
     a7: require('../assets/images/Apart-8.png'),
     a8: require('../assets/images/Apart-9.png'),
 
+    Amain: require('../assets/images/Amenities-img1.png'),
+    A1: require('../assets/images/Group.png'),
+    A2: require('../assets/images/Vector2.png'),
+    A3: require('../assets/images/Group (1).png'),
+    A4: require('../assets/images/Group (2).png'),
+    A5: require('../assets/images/Group (3).png'),
+    A6: require('../assets/images/Group (3)2.png'),
+    A7: require('../assets/images/Group (4).png'),
+    A8: require('../assets/images/Group (5).png'),
+    A9: require('../assets/images/Group (6).png'),
+    A10: require('../assets/images/Group (7).png'),
+    A11: require('../assets/images/Group (8).png'),
+    A12: require('../assets/images/Group (9).png'),
+    A13: require('../assets/images/Group (10).png'),
+
+    Cmain: require('../assets/images/contactus-img1.png'),
+    C1: require('../assets/icons/contactus-ic1.png'),
+    C2: require('../assets/icons/contactus-ic2.png'),
+    C3: require('../assets/icons/contactus-ic3.png'),
+    C4: require('../assets/icons/contactus-ic4.png'),
+    C5: require('../assets/icons/contactus-ic5.png'),
+    C6: require('../assets/icons/contactus-ic6.png'),
+
+
+    
+
+
+
+
 
  
 };

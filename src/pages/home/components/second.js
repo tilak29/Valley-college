@@ -18,10 +18,10 @@ function Second() {
         </div>
         <div className="flex flex-col basis-full gap-4">
           <p className="text-base text-[#007FFF] ">About</p>
-          <p className="text-3xl font-bold text-ellipsis font-['elMessiri'] max-w-[80%]">
+          <p className="elMessiri ">
             Discover the value of living fabulously
           </p>
-          <p className="text-ellipsis font-['reg'] text-lg max-w-[95%] max-[820px]:text-sm">
+          <p className="reg">
             Set atop the rolling hills of historic Staunton, Big Sky Apartments
             in Staunton provides magnificent views of the gorgeous Shenandoah
             Valley and beyond. Our community provides luxury amenities and
@@ -33,21 +33,21 @@ function Second() {
           <ol className="flex flex-col gap-3">
             <li className="flex gap-3">
               <img className="max-w-full h-auto" src={dot} />
-              <p className="text-base font-['reg']">162 Residential Units</p>
+              <p className="reg">162 Residential Units</p>
             </li>
             <li className="flex gap-3">
               <img className="max-w-full h-auto" src={dot} />
-              <p className="text-base font-['reg']">
+              <p className="reg">
                 21,000 sq.ft of Retails and office
               </p>
             </li>
             <li className="flex gap-3">
               <img className="max-w-full h-auto" src={dot} />
-              <p className="text-base font-['reg']">372 Bed rooms</p>
+              <p className="reg">372 Bed rooms</p>
             </li>
             <li className="flex gap-3">
               <img className="max-w-full h-auto" src={dot} />
-              <p className="text-base font-['reg']">Public water and utility</p>
+              <p className="reg">Public water and utility</p>
             </li>
           </ol>
           <div className="relative flex items-center">

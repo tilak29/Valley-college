@@ -7,8 +7,8 @@ module.exports = withMT({
   theme: {
     extend: {
       fontFamily: {
-        elMessiri: ['"El Messiri"', "sans-serif"],
-        reg: ['"Source Sans Pro"', "sans-serif"],
+        "elMessiri": ['"El Messiri"'],
+        "reg": ['"Source Sans Pro"'],
       },
     },
   },

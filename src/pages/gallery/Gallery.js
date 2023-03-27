@@ -81,8 +81,7 @@ return(
         </section>
 
         <section className="section-3">
-               <MuiTabs/>
-          
+               <MuiTabs/>          
         </section>
 
 
