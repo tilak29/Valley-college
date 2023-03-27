@@ -13,17 +13,13 @@ function App() {
   return (
     <>
       <div>
-         {/* <Topbar />
+         <Topbar />
          <Header />
          <Home />
-         <Gallery/>
+         {/* <Gallery/>
          <Apartments/>
-         <Aminities/> */}
-         <Contactus/> 
-
-
-
-        
+         <Aminities/>
+         <Contactus/>  */}        
       </div>
     </>
   );

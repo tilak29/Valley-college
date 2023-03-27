@@ -48,7 +48,7 @@ function Sixth() {
         </li>
       </ul>
 
-      <div style={{display:"flex",justifyContent:"center",backgroundColor:"#007FFF", maxWidth:"fit-content", position:'absolute' , left:"82.2%",bottom:"0%"}}>
+      <div className="six-btn-div">
         <button
           onClick={() => previous()}
           style={{ background: "none", border: "none", padding:"1rem" }}
