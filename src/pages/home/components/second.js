@@ -32,21 +32,21 @@ function Second() {
           </p>
           <ol className="flex flex-col gap-3">
             <li className="flex gap-3">
-              <img className="max-w-full h-auto" src={dot} />
+              <img className="" src={dot} />
               <p className="reg">162 Residential Units</p>
             </li>
             <li className="flex gap-3">
-              <img className="max-w-full h-auto" src={dot} />
+              <img className="" src={dot} />
               <p className="reg">
                 21,000 sq.ft of Retails and office
               </p>
             </li>
             <li className="flex gap-3">
-              <img className="max-w-full h-auto" src={dot} />
+              <img className="" src={dot} />
               <p className="reg">372 Bed rooms</p>
             </li>
             <li className="flex gap-3">
-              <img className="max-w-full h-auto" src={dot} />
+              <img className="" src={dot} />
               <p className="reg">Public water and utility</p>
             </li>
           </ol>

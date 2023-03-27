@@ -480,7 +480,7 @@
   white-space: wrap;
   overflow: hidden;
   text-overflow: ellipsis;
-
+  margin-bottom: 0.7rem;
 }
 
 .six-text3{
@@ -521,13 +521,29 @@
     position: relative;
     width: 90vw;
     margin: 0 auto;
-    max-width: 45rem;
+    max-width: 33rem;
   }
   
   .carousel__item6{
     flex: 0 0 auto;
     width: 100%;
     padding: 0;
+  }
+  
+  .six-text2{
+    font-family:'El Messiri', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 90%;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.7rem;
+  }
+  
+  .six-icon{
+    color: white;
+    font-size: 1.3rem;
   }
   
 

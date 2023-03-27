@@ -15,14 +15,14 @@ const Tabs = ({ color }) => {
       <div className="flex flex-wrap">
         <div className="w-full border-solid border-[#434343] rounded-xl bg-[#434343] pl-2 pr-2">
           <ul
-            className="flex mb-0 list-none items-center justify-center flex-wrap pt-2 pb-2 flex-row text-white"
+            className="flex mb-0 list-none items-center justify-center flex-nowrap pt-2 pb-2 flex-row text-white"
             role="tablist "
           >
-            <li className="flex border-[0.1px] border-[#535353] rounded-lg px-3 -mb-px mr-2 last:mr-0 flex-auto text-center">
-              <img src={fir1} className="w-7 h-auto  my-auto" />
+            <li className="flex border-[0.1px] border-[#535353] rounded-lg px-3 -mb-px mr-2 last:mr-0 flex-auto text-center ">
+              <img src={fir1} className="md:w-7 h-auto  my-auto w-4" />
               <a
                 className={
-                  "text-s px-2 py-3 shadow-lg rounded block leading-normal "
+                  "md:text-sm text-xs px-2 py-3 shadow-lg rounded block leading-normal "
                 }
                 data-toggle="tab"
                 href="#link1"
@@ -32,10 +32,10 @@ const Tabs = ({ color }) => {
               </a>
             </li>
             <li className="flex border-[0.1px] border-[#535353] rounded-lg px-2 -mb-px mr-2 last:mr-0 flex-auto text-center">
-              <img src={fir2} className="w-7 h-auto my-auto" />
+              <img src={fir2} className="md:w-7 h-auto my-auto w-4" />
               <a
                 className={
-                  "text-s px-3 py-3 shadow-lg rounded block leading-normal "
+                  "md:text-sm text-xs px-3 py-3 shadow-lg rounded block leading-normal "
                 }
                 data-toggle="tab"
                 href="#link2"
@@ -45,10 +45,10 @@ const Tabs = ({ color }) => {
               </a>
             </li>
             <li className="flex border-[0.1px] border-[#535353] rounded-lg px-2 -mb-px mr-2 last:mr-0 flex-auto text-center">
-              <img src={fir3} className="w-7 h-auto my-auto" />
+              <img src={fir3} className="md:w-7 h-auto my-auto w-4" />
               <a
                 className={
-                  "text-s px-3 py-3 shadow-lg rounded block leading-normal"
+                  "md:text-sm text-xs px-3 py-3 shadow-lg rounded block leading-normal"
                 }
                 data-toggle="tab"
                 href="#link3"
