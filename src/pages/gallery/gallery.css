@@ -1,0 +1,44 @@
+@font-face {
+    font-family: ElMessiri-Bold;
+    src: url(../../assets/fonts/static/ElMessiri-Bold.ttf);
+  }
+  
+.section-1{
+    width: 100%;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+.section-2{
+    margin-top: 5vh;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+#heading{
+    font-size: var(--heading);
+    font-family: ElMessiri-Bold;
+}
+.Appbar{
+  max-width: 60%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5vh;
+ 
+}
+/*------------------------------------------------------media queries------------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Appbar{
+    max-width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5vh;   
+  }
+}
+

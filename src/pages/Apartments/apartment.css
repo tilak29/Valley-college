@@ -1,0 +1,26 @@
+@font-face {
+    font-family: ElMessiri-Bold;
+    src: url(../../assets/fonts/static/ElMessiri-Bold.ttf);
+  }
+#flexdiv{
+  display: flex;
+}
+
+.flexdiv-1{
+  width: 50%;
+}
+
+/*------------------------------------------------------media queries------------------------------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+#flexdiv{
+  display: flex;
+  flex-direction: column;
+}
+.flexdiv-1{
+  width: 100%;
+}
+
+
+}
