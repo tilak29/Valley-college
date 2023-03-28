@@ -1,0 +1,196 @@
+@font-face{
+  font-family: 'Gill Sans';
+  src: url(/src/assets/fonts/GillSans.otf);
+}
+
+.aboutus{
+  height: auto;
+  padding-top: 6.6rem;
+  position: relative;
+}
+.picture1{
+  width: 100%;
+  height: 70%;
+  position: relative;
+}
+.text0{
+  width: 100%;
+  font-family: 'Gill Sans';
+  text-align-last: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 130%;
+  padding-top: 2rem;
+}
+.text1{
+  text-align-last: center;
+  font-family: 'Gill Sans';
+  font-size: 0.8rem;
+  
+}
+.text2{
+  text-align-last: center;
+  font-family: 'Gill Sans';
+  font-size: 0.8rem;
+  padding-bottom: 3rem;
+}
+
+/*************************** photo2 *****************************/
+.photo2div{
+  position: relative;
+  /* padding-top: 3rem; */
+}
+.photo2{
+ width: 100%; 
+ height: 19rem;
+ position: relative;
+}
+
+.textpic2{
+  width: 100%;
+  position: absolute;
+  bottom: 70%;
+  z-index: 5;
+  text-align: center;
+  
+  font-family: 'Gill Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8rem;
+
+  color: white;
+  }
+
+  .logodiv_aboutus{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+    width: 100%;
+  }
+
+  .logodiv_aboutus img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 60%;
+  }
+ 
+  .logo1text{
+    width: 151px;
+    height: 60px;
+  
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white; 
+  }
+  .logo2text{
+    width: 151px;
+    height: 60px;
+  
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white; 
+  }
+  .logo3text{
+    width: 151px;
+    height: 60px;
+  
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white; 
+  }
+  .logo4text{
+    width: 151px;
+    height: 60px;
+  
+    text-align: center;
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white; 
+  }
+
+  .photo3{
+    position: relative;
+    bottom: 1rem;
+    margin: auto;
+    width: 85%;
+  }
+/**********************For Mob*********************************/
+  @media (max-width:430px) {
+    .logodiv_aboutus{
+      display: flex; 
+      flex-wrap: nowrap;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      bottom: 10rem;
+      width: 100%;
+    }
+
+    .logodiv_aboutus img{
+      height: 2rem;
+      width: 2rem;
+      border-radius: 60%;
+    }
+    .logo1text{
+      width: 80px;
+      height: 60px;
+    
+      text-align: center;
+      font-family: 'Gill Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: white; 
+    }
+    .logo2text{
+      width: 80px;
+      height: 60px;
+    
+      text-align: center;
+      font-family: 'Gill Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: white; 
+    }
+    .logo3text{
+      width: 80px;
+      height: 60px;
+    
+      text-align: center;
+      font-family: 'Gill Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: white; 
+    }
+    .logo4text{
+      width: 80px;
+      height: 60px;
+    
+      text-align: center;
+      font-family: 'Gill Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 0.8rem;
+      color: white; 
+    }
+    .photo3{
+      position: relative;
+      width: 85%;
+    }
+  }
