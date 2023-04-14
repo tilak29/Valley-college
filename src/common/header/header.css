@@ -11,6 +11,8 @@
   display: inline-block;
   position: relative;
   color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 .nav-link::after {
@@ -21,7 +23,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #007fff;
+  background-color: var(--blue);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -134,7 +136,8 @@
   border: none;
   border-radius: 10%;
   cursor: pointer;
-  max-width: 7rem;
+  width: 6rem;
+  height: auto;
   margin-left: 1rem;
 }
 
@@ -147,7 +150,7 @@
 
 /* 48em = 768px */
 
-@media (min-width: 886px) {
+@media (min-width: 936px) {
   .header {
     width: 100%;
     z-index: 3;
@@ -211,7 +214,7 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 8rem;
+    width: 6rem;
     height: 2rem;
   }
 

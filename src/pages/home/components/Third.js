@@ -1,6 +1,7 @@
 import React from "react";
 import { useCarousel } from "use-carousel-hook";
 import '../home.css';
+import '../../../styles/global.css'
 
 import thirdleft from "../../../assets/images/thirdleft.png";
 import thirdright from "../../../assets/images/thirdright.png";

@@ -1,11 +1,12 @@
 .first1-div {
   position: relative;
-  margin-top: 7vh;
+  margin-top: 10vh;
   width: 100%;
 }
 
 .first1-img {
   width: 100%;
+  height: auto;
   left: 0;
 }
 
@@ -16,6 +17,14 @@
   transform: translate(-50%, 0);
 }
 
+@media (max-width: 768px) {
+  .first1-div {
+    position: relative;
+    margin-top: 3vh;
+    width: 100%;
+  }
+  
+}
 
 /* -------- second ---------*/
 
@@ -51,7 +60,7 @@
 
 .third-text{
 
-  color: #007FFF;
+  color: var(--blue);
   font-family: 'Source Sans Pro', sans-serif;
   width: 50%;
 }
@@ -105,7 +114,7 @@
 
 .third-text{
 
- color: #007FFF;
+ color: var(--blue);
  font-family: 'Source Sans Pro', sans-serif;
  width: 90%;
 }
@@ -162,7 +171,7 @@
 }
 
 .fourth-text{
-  color: #FFE15C;
+  color: var(--yellow);
   max-width: 80%;
   margin-bottom: 1rem;
 }
@@ -174,11 +183,11 @@
   font-weight: bold;
   max-width: 77%;
   word-wrap: break-word;
-  margin-bottom: 1rem;
 }
 
 
 .fourth-ol{
+  margin-top: 1rem;
   color: white;
 
 }
@@ -215,7 +224,7 @@
   }
 
   .fourth-text{
-    color: #FFE15C;
+    color:  var(--yellow);
     max-width: 100%;
     
   }
@@ -249,7 +258,7 @@
 }
 
 .fifth-text{
- color: #007FFF;
+ color:  var(--blue);
  font-family: 'Source Sans Pro', sans-serif;
  width: 50%;
 }
@@ -322,7 +331,7 @@
 .fifth-news-a{
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.75rem;
-  color: #007FFF;
+  color: var(--blue);
 }
 
 .carousel__list5 {
@@ -353,7 +362,7 @@
   }
 
   .fifth-text{
-    color: #007FFF;
+    color: var(--blue);
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0 auto;
    }
@@ -412,7 +421,7 @@
   .fifth-news-a{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 0.75rem;
-    color: #007FFF;
+    color: var(--blue);
   }
 
   .carousel__list5 {
@@ -454,7 +463,7 @@
   position: relative;
   width: 100vw;
   margin: 0 auto;
-  max-width: 40rem;
+  max-width: 38rem;
 }
 
 .carousel__item6{
@@ -468,7 +477,7 @@
 }
 
 .six-text1{
-  color : #007FFF;
+  color : var(--blue);
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -480,7 +489,7 @@
   white-space: wrap;
   overflow: hidden;
   text-overflow: ellipsis;
-
+  margin-bottom: 0.7rem;
 }
 
 .six-text3{
@@ -491,6 +500,16 @@
 .six-icon{
   color: white;
   font-size: 1.7rem;
+}
+
+.six-btn-div{
+  display:flex;
+  justify-self: end;
+  background-color:var(--blue);
+  max-width: fit-content;
+  position:absolute ;
+  right: 0%;
+  bottom: 0%;
 }
 
 @media (max-width: 980px){
@@ -511,13 +530,29 @@
     position: relative;
     width: 90vw;
     margin: 0 auto;
-    max-width: 45rem;
+    max-width: 33rem;
   }
   
   .carousel__item6{
     flex: 0 0 auto;
     width: 100%;
     padding: 0;
+  }
+  
+  .six-text2{
+    font-family:'El Messiri', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 90%;
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 0.7rem;
+  }
+  
+  .six-icon{
+    color: white;
+    font-size: 1.3rem;
   }
   
 
@@ -529,16 +564,98 @@
   margin: 7rem 3rem;
 }
 
+.seven-text-div{
+  text-align: center;
+  margin-left: 30%;
+  max-width: 50%;
+  margin-bottom: 2rem;
+}
+
 .seven-text1{
-  color: #007FFF;
+  color: var(--blue);
   font-family: 'Source Sans Pro', sans-serif;
+  width: 80%;
+  margin-bottom: 1rem;
 }
 
 .seven-text2{
   font-family:'El Messiri', sans-serif;
-  font-size: 1.7rem;
+  font-size: 1.85rem;
+  font-weight: 600;
+  width: 80%;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .seven-main-div{
   display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.seven-sub-div1{
+  flex-basis: 100%;
+}
+
+.seven-sub-div2{
+  flex-basis: 30%;
+}
+
+.seven-main-div1{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.seven-sub-text1{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: var(--blue);
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.seven-sub-text2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.seven-img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width:1100px){
+  .seven-text-div{
+    text-align: center;
+    margin-left: 20%;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .seven-text1{
+    color: var(--blue);
+    font-family: 'Source Sans Pro', sans-serif;
+   
+    margin-bottom: 1rem;
+  }
+  
+  .seven-text2{
+    font-family:'El Messiri', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+  
+    white-space: wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+
+  .seven-main-div{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
 }

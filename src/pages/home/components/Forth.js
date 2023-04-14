@@ -1,10 +1,8 @@
 import React from "react";
 import '../home.css';
+import '../../../styles/global.css'
 
 import dot from "../../../assets/images/dot.png";
-
-
-
 
 function Fourth() {
   return (

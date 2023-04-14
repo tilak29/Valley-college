@@ -2,6 +2,8 @@ import React from "react";
 import "./header.css";
 import logo from "../../assets/images/logo.png";
 import Button from "../../components/button/button";
+import '../../styles/global.css'
+import {Link} from "react-router-dom";
 
 function Header() {
   return (
@@ -14,30 +16,36 @@ function Header() {
           <span class="navicon"></span>
         </label>
         <ul class="menu">
-          <li>
-            <a class="nav-link nav-link-ltr" href="#">
+          <li> 
+          <Link to="/"
+          class="nav-link nav-link-ltr" >
               Home
-            </a>
+          
+            </Link>
           </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="#">
+           <li>
+            <Link to="/aminities"
+            class="nav-link nav-link-ltr" >
               Amenities
-            </a>
+            </Link>
           </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="#">
+            <li>
+            <Link to="/apartments"
+            class="nav-link nav-link-ltr" >
               Apartments
-            </a>
+            </Link>
           </li>
-          <li>
-            <a class="nav-link nav-link-ltr" href="#">
+            <li>
+            <Link to="/gallery"
+            class="nav-link nav-link-ltr" >
               Gallery
-            </a>
+            </Link>
           </li>
           <li>
-            <a class="nav-link nav-link-ltr" href="#">
+          <Link to="/contactus"
+            class="nav-link nav-link-ltr" >
               Contact us
-            </a>
+            </Link>
           </li>
           <li>
             <button className="btn">

@@ -20,19 +20,27 @@ function Header() {
       <div className="top-bar">
         <div className="first-icons">
           <div className="ficon">
-            <img src={i1} alt="l1" />
+            <img style={{cursor:"pointer"}} src={i1} alt="l1" />
             <p>(808)555-0111</p>
           </div>
           <div className="ficon">
-            <img src={i2} alt="l1" />
+            <img style={{cursor:"pointer"}} src={i2} alt="l1" />
             <p>tim.jennings@example.com</p>
           </div>
         </div>
         <div className="last-icons">
-          <img src={fb} alt="" />
-          <img src={insta} alt="" />
-          <img src={twit} alt="" />
-          <img src={youtube} alt="" />
+          <Link to="https://facebook.com">
+        <img className="top-img" src={fb} style={{cursor:"pointer"}} alt="" />
+        </Link>
+        <Link to="https://instagram.com">
+        <img className="top-img" src={insta} style={{cursor:"pointer"}} alt="" />
+        </Link>
+        <Link to="https://twitter.com">
+        <img className="top-img" src={twit} style={{cursor:"pointer"}} alt="" />
+        </Link>
+        <Link to="https://youtube.com">
+       <img className="top-img" src={youtube} style={{cursor:"pointer"}} alt="" />
+       </Link>
         </div>
       </div>
       <hr style={{}} />

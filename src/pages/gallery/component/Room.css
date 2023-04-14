@@ -6,6 +6,7 @@
     gap: 2%;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-bottom: 10% ;
 }
 
 /*------------ 4k devices (laptops/desktops, 2000px and up)----------------------- */

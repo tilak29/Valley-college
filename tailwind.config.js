@@ -9,6 +9,7 @@ module.exports = withMT({
       fontFamily: {
         "elMessiri": ['"El Messiri"'],
         "reg": ['"Source Sans Pro"'],
+        
       },
     },
   },

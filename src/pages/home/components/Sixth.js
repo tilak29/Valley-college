@@ -1,13 +1,12 @@
 import React from "react";
 import { useCarousel } from "use-carousel-hook";
 import '../home.css';
+import '../../../styles/global.css'
 
-import thirdleft from "../../../assets/images/thirdleft.png";
-import thirdright from "../../../assets/images/thirdright.png";
-import thirdcircle from "../../../assets/images/thirdcircle.png";
 import event1 from "../../../assets/images/event1.png";
 
 import {BsArrowRight,BsArrowLeft} from 'react-icons/bs'
+
 
 
 
@@ -48,7 +47,7 @@ function Sixth() {
         </li>
       </ul>
 
-      <div style={{display:"flex",justifyContent:"center",backgroundColor:"#007FFF", maxWidth:"fit-content", position:'absolute' , left:"82.2%",bottom:"0%"}}>
+      <div className="six-btn-div">
         <button
           onClick={() => previous()}
           style={{ background: "none", border: "none", padding:"1rem" }}
@@ -77,5 +76,4 @@ function Sixth() {
 }
 
 export default Sixth;
-
 

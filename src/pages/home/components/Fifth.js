@@ -1,6 +1,11 @@
 import React from "react";
 import '../home.css';
+import '../../../styles/global.css'
+
 import { useCarousel } from "use-carousel-hook";
+import 'semantic-ui-css/semantic.min.css';
+import { Button, Progress } from 'semantic-ui-react';
+import { Component } from 'react';
 
 import fifthline1 from "../../../assets/images/fifthline1.png";
 import fifthleft from "../../../assets/images/fifthleft.png";
@@ -53,6 +58,8 @@ function Fifth() {
           onClick={() => previous()}
           style={{ background: "none", border: "none" }}
         >
+          
+
           <img
             src={fifthleft}
             alt="fourthredline"
